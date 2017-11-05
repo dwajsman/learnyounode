@@ -15,21 +15,20 @@ if (Da <= 9){ Da = "0"+ Da};
 if (Ho <= 9){ Ho = "0"+ Ho};
 if (Mi <= 9){ Mi = "0"+ Mi};
 
+//"2013-07-06 17:42" 
+let useDate = Ye +'-'+ Mo  +'-'+ Da +' '+ Ho +':'+ Mi+'\n'
+
+
 
 let server = net.createServer(function (socket) {  
    
-//"2013-07-06 17:42" 
-console.log(Ye +'-'+ Mo  +'-'+ Da +' '+ Ho +':'+ Mi)
 
-
-
-
-socket.write('a');
+//console.log(useDate)
+socket.write(useDate);
 
 socket.end();
 
 });
-
 
 
 server.listen(port);
