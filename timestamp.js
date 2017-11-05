@@ -18,10 +18,8 @@ if (Mi <= 9){ Mi = "0"+ Mi};
 
 let server = net.createServer(function (socket) {  
    
-
-
-console.log(Ye +' '+ Mo  +' '+ Da +' '+ Ho +' '+ Mi)
-
+//"2013-07-06 17:42" 
+console.log(Ye +'-'+ Mo  +'-'+ Da +' '+ Ho +':'+ Mi)
 
 
 
