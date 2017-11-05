@@ -10,15 +10,17 @@ let Da = myDate.getDate();     // returns the day of month
 let Ho = myDate.getHours()  
 let Mi = myDate.getMinutes()  
 
-
-
+if (Mo <= 9){ Mo = "0"+ Mo};
+if (Da <= 9){ Da = "0"+ Da};
+if (Ho <= 9){ Ho = "0"+ Ho};
+if (Mi <= 9){ Mi = "0"+ Mi};
 
 
 let server = net.createServer(function (socket) {  
    
 
 
-//console.log(Ye +' '+ Mo  +' '+ Da +' '+ Ho +' '+ Mi)
+console.log(Ye +' '+ Mo  +' '+ Da +' '+ Ho +' '+ Mi)
 
 
 
