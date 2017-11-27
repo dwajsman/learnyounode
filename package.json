@@ -4,8 +4,17 @@
   "description": "",
   "main": "httpclient.js",
   "dependencies": {
-    "async": "^2.5.0",
-    "bl": "^1.2.1"
+    "async": "^2.6.0",
+    "bl": "^1.2.1",
+    "h2o2": "^6.0.1",
+    "handlebars": "^4.0.11",
+    "hapi": "^16.6.2",
+    "inert": "^4.2.1",
+    "joi": "^13.0.2",
+    "npm": "^5.5.1",
+    "path": "^0.12.7",
+    "rot13-transform": "^1.0.0",
+    "vision": "^4.1.1"
   },
   "devDependencies": {},
   "scripts": {
